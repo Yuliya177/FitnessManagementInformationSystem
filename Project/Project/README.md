@@ -1,4 +1,4 @@
-﻿#  FitnessManagement System
+﻿#  Fitness Management Information System
 
 Desktop application developed in C# with Microsoft SQL Server, designed to manage gym operations including clients, trainers, training sessions, and membership payments through a user-friendly forms interface.
 
@@ -36,10 +36,9 @@ Referential integrity and foreign keys are used to ensure consistency.
 
 ##  How to Run
 
-1. Clone the repository
-2. Create a SQL Server database named `FitnessManagement`
-3. Execute `database/schema.sql` to create tables
-4. Update connection string in `App.config`:
+1. Download the named file `Project,sql` and the file `Project`
+2. Execute the existing tables.
+3. Update connection string in `App.config`:
 
 Server=YOUR_SERVER_NAME;Database=FitnessManagement;Integrated Security=True;
 
